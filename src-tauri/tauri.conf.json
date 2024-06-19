@@ -146,10 +146,10 @@
     "updater": {
       "active": true,
       "endpoints": [
-        "https://osafcom.dz/api/get-update?target={{target}}&version={{current_version}}"
+        "https://github.com/osafcom/capital-desktop/releases/download/{{current_version}}/{{target}}"
       ],
       "dialog": true,
-      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDE4MEE5RkI5MEQzMTJBOEEKUldTS0tqRU51WjhLR0g4Rlo0WFNuUEFVNHlYQjZRbWQvTTB5dEtZTGNPanczWGhTU3hkT3NUUUwK"
+      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IEY0QTQxQkRCMzIyRThCRTEKUldUaGl5NHkyeHVrOUVIRmw1T2xWWk5zQVkxKzBRMVV1MWw3aXVNVzlPQ0Fxc1RMZ2krTVlwVnEK"
     },
     "windows": [
       {
