@@ -27,28 +27,28 @@
         "save": false
       },
       "fs": {
-        "all": false,
-        "copyFile": false,
+        "all": true,
+        "copyFile": true,
         "createDir": false,
         "exists": false,
-        "readDir": false,
-        "readFile": false,
+        "readDir": true,
+        "readFile": true,
         "removeDir": false,
         "removeFile": false,
         "renameFile": false,
         "scope": [],
-        "writeFile": false
+        "writeFile": true
       },
       "globalShortcut": {
         "all": false
       },
       "http": {
-        "all": false,
-        "request": false,
+        "all": true,
+        "request": true,
         "scope": []
       },
       "notification": {
-        "all": false
+        "all": true
       },
       "os": {
         "all": false
@@ -75,35 +75,36 @@
         "sidecar": false
       },
       "window": {
-        "all": false,
-        "center": false,
-        "close": false,
-        "create": false,
-        "hide": false,
-        "maximize": false,
-        "minimize": false,
-        "print": false,
-        "requestUserAttention": false,
-        "setAlwaysOnTop": false,
-        "setCursorGrab": false,
-        "setCursorIcon": false,
-        "setCursorPosition": false,
-        "setCursorVisible": false,
-        "setDecorations": false,
-        "setFocus": false,
-        "setFullscreen": false,
-        "setIcon": false,
-        "setMaxSize": false,
-        "setMinSize": false,
-        "setPosition": false,
-        "setResizable": false,
-        "setSize": false,
-        "setSkipTaskbar": false,
-        "setTitle": false,
-        "show": false,
-        "startDragging": false,
-        "unmaximize": false,
-        "unminimize": false
+        "all": true,
+        "create": true,
+        "center": true,
+        "requestUserAttention": true,
+        "setResizable": true,
+        "setTitle": true,
+        "maximize": true,
+        "unmaximize": true,
+        "minimize": true,
+        "unminimize": true,
+        "show": true,
+        "hide": true,
+        "close": true,
+        "setDecorations": true,
+        "setAlwaysOnTop": true,
+        "setSize": true,
+        "setMinSize": true,
+        "setMaxSize": true,
+        "setPosition": true,
+        "setFullscreen": true,
+        "setFocus": true,
+        "setIcon": true,
+        "setSkipTaskbar": true,
+        "setCursorGrab": true,
+        "setCursorVisible": true,
+        "setCursorIcon": true,
+        "setCursorPosition": true,
+        "setIgnoreCursorEvents": true,
+        "startDragging": true,
+        "print": true
       }
     },
     "bundle": {
