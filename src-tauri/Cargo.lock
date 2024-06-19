@@ -247,6 +247,17 @@ dependencies = [
 ]
 
 [[package]]
+name = "capital"
+version = "0.0.0"
+dependencies = [
+ "serde",
+ "serde_json",
+ "tauri",
+ "tauri-build",
+ "tauri-plugin-window-state",
+]
+
+[[package]]
 name = "cargo_toml"
 version = "0.15.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1066,17 +1077,6 @@ dependencies = [
  "glib-sys",
  "libc",
  "system-deps 6.1.1",
-]
-
-[[package]]
-name = "capital"
-version = "0.0.0"
-dependencies = [
- "serde",
- "serde_json",
- "tauri",
- "tauri-build",
- "tauri-plugin-window-state",
 ]
 
 [[package]]
